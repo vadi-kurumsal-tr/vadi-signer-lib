@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://github.com/vadi-kurumsal-tr/vadi-signer-lib/raw/master" href="vadi_signer.jnlp">
+  <information>
+      <title>Vadi Signer</title>
+      <vendor>Vadi Kurumsal Bilgi Sistemleri</vendor>
+      <homepage href="http://vadi.com.tr/" />
+      <description>Vadi Signer</description>
+
+      <icon href="img/sign64x64.ico"/>
+      <icon kind="splash" href="img/loading.gif"/>
+      <icon kind="shortcut" href="img/sign24x24.ico" width="16" height="16"/>
+      <icon kind="shortcut" href="img/sign32x32.ico" width="32" height="32"/>
+      <icon kind="shortcut" href="img/sign64x64.ico" width="64" height="64"/>
+
+      <shortcut>
+        <desktop />
+        <menu submenu="Vadi Signer" />
+      </shortcut>
+      <offline-allowed/>
+  </information>
+
+  <security>
+    <all-permissions />
+  </security>
+
+  <!--update check="background" policy="always" /-->
+  <update check="always"/>
+
+  <resources>
+    <j2se version="1.8+" initial-heap-size="256m" max-heap-size="1024m" />
+    <property name="jnlp.versionEnabled" value="true" />
+	    
+    <jar href="signer.jar" main="true"/>
+    <jar href="commons-logging-1.1.1.jar"/>
+  </resources>
+
+  <application-desc main-class="com.vadi.signer.DigikentSignerApp">
+    <argument>http://signer.vadi.com.tr</argument>
+  </application-desc>
+</jnlp>
