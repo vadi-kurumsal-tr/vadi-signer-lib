@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="https://github.com/vadi-kurumsal-tr/vadi-signer-lib/raw/master" href="vadi_signer.jnlp">
+<jnlp spec="1.0+" codebase="https://raw.githubusercontent.com/vadi-kurumsal-tr/vadi-signer-lib/master/" href="vadi_signer.jnlp">
   <information>
       <title>Vadi Signer</title>
       <vendor>Vadi Kurumsal Bilgi Sistemleri</vendor>
