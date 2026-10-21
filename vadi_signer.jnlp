@@ -30,8 +30,8 @@
     <j2se version="1.8+" initial-heap-size="256m" max-heap-size="1024m" />
     <property name="jnlp.versionEnabled" value="true" />
 	    
-    <jar href="signer.jar" main="true"/>
-    <jar href="commons-logging-1.1.1.jar"/>
+    <jar href="https://media.githubusercontent.com/media/vadi-kurumsal-tr/vadi-signer-lib/master/signer.jar" main="true"/>
+    <jar href="https://media.githubusercontent.com/media/vadi-kurumsal-tr/vadi-signer-lib/master/commons-logging-1.1.1.jar"/>
   </resources>
 
   <application-desc main-class="com.vadi.signer.DigikentSignerApp">
